@@ -1,8 +1,8 @@
-> 👨‍🚀 **Repo com o objetivo de estudo pessoal**
-
 <p align="center">
   <img src=".github/assets/header.png">
 </p>
+
+> 👨‍🚀 **Repo for the purpose of personal study**
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
@@ -12,25 +12,43 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
 </p>
 
-# 🚀 Desafio Proposto
+# 🌐 Proposed challenge
 
-Escrever suites de testes aplicando a metodologia de TDD utilizando o **Vitest** com Typescript.
+Write test suites applying the TDD methodology using **Vitest** with Typescript.
 
-# 👨‍💻 Tecnologias
+# 🚀 Technologies
 
-Segue abaixo uma lista com as principais técnologias utilizados no desenvolvimento desta aplicação.
+This code source was developed with the following technologies:
 
-### ⚛️ Tecnologias principais
+### ⚛️ Main Techs
 
-- [x] [Node.js](https://nodejs.org/en/)
-- [x] [Typescript](https://www.typescriptlang.org/)
-- [x] [Vitest](https://vitest.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vitest](https://vitest.dev/)
 
-### 📚 Bibliotecas e Dependências
+### 📚 Libs & Dependencys
 
-- [x] [Eslint](https://eslint.org/)
-- [x] [Date-fns](https://date-fns.org/)
+- [Eslint](https://eslint.org/)
+- [Date-fns](https://date-fns.org/)
 
-### 🐱‍👤 Técnicas
+### 🐱‍👤 Techniques
 
-- [x] [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+- [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14.16][nodejs] or higher + [NPM v8][npm] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/felipeAguiarCode/node-ts-tdd-with-vitest-study
+
+# Go into the repository
+$ cd node-ts-tdd-with-vitest-study
+
+# Install dependencies
+$ npm install
+
+# Run the tests
+$ npm run test
+```
