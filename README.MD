@@ -1,8 +1,16 @@
+> 👨‍🚀 **Repo com o objetivo de estudo pessoal**
+
 <p align="center">
   <img src=".github/assets/header.png">
 </p>
 
-> 👨‍🚀 **Repo com o objetivo de estudo pessoal**
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+</p>
 
 # 🚀 Desafio Proposto
 
