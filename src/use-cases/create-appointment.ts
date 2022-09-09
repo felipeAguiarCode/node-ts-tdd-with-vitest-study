@@ -1,4 +1,5 @@
 import { Appointment } from "../entities/appointment"
+import { IAppointmentsRepository } from "../repositories/I-appointments-repository"
 
 interface CreateAppointmentRequest {
   customer: string
@@ -9,16 +10,30 @@ interface CreateAppointmentRequest {
 type CreateAppointmentResponse = Appointment
 
 export class CreateAppointment {
+  constructor(private appointmentsRepository: IAppointmentsRepository) {}
+
   async execute({
     customer,
     startsAt,
     endsAt,
   }: CreateAppointmentRequest): Promise<CreateAppointmentResponse> {
+    const overLappingAppointment =
+      await this.appointmentsRepository.findOverlappingAppointment(
+        startsAt,
+        endsAt
+      )
+
+    if (overLappingAppointment) {
+      throw new Error("Another appointment overlaps")
+    }
+
     const appointment = new Appointment({
       customer,
       startsAt,
       endsAt,
     })
+
+    await this.appointmentsRepository.create(appointment)
 
     return appointment
   }
