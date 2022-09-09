@@ -12,7 +12,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
 </p>
 
-# 🌐 Proposed challenge
+# ⚔️ Proposed challenge
 
 Write test suites applying the TDD methodology using **Vitest** with Typescript.
 
@@ -37,7 +37,7 @@ This code source was developed with the following technologies:
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14.16][nodejs] or higher + [NPM v8][npm] or higher installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v14.16](https://nodejs.org/en/) or higher + [NPM v8](https://nodejs.org/en/) or higher installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
